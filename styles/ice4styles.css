@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: #5ca1d7;
+    text-align: center;
+    color: white;
+}
+
+
+.header-text:hover {
+    color: black; 
+  }
+
+ol{
+    width: 350px;
+    display: table;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+}
+li{
+
+    text-align: left;
+}
+img{
+    width: 20%
+}
+figure{
+    color: white;
+    font-size: 2em;
+}
+
+.quote{
+    width: 52%;
+    margin: 0 auto;
+}
+footer{
+    color: black;
+}
+
+
