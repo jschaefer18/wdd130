@@ -1,13 +1,32 @@
-#content{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
     width: 1600px;
     margin: 0 auto;
     padding: 20px;
 }
 
-
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 nav a {
     display: inline-block;
+    padding: 35px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
 }
 
 #hero-msg h1,
@@ -15,86 +34,125 @@ nav a {
     text-align: center;
 }
 
-
 #home_link,
 #site_link,
 #contact_link,
 #site_plan_2,
 #contact_us_2,
-#page_2{
+#page_2 {
     color: white;
 }
+
 .button-box {
     text-align: center;
 }
-
 
 main section {
     text-align: center;
 }
 
-
-
-
 #background {
     height: 725px;
     background-color: #004080;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 200px;
 }
 
-.logo{
+.logo {
     width: 80px;
 }
-.icon{
+
+.icon {
     width: 80px;
+    padding-top: 10px;
 }
-body {
-    background-color: #fcfbfb; ;
-}
+
 header {
     background-color: #004080;
 }
+
 nav {
-    text-align: left;    
+    text-align: left;
 }
 
-footer{
+h2 {
+    margin: 0;
+}
+
+footer {
     background-color: #004080;
     text-decoration: underline;
     color: white;
-    text-decoration: none; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-  
 
-.msg{
+.msg {
     background-color: #00CC66;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 150px; 
 }
 
-.join{
+.msg p {
+    padding-bottom: 15px;
+    font-size: 0.8em;
+}
+
+.join {
     background-color: #663300;
     color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-
-
 #hero {
-    width: 100%; 
+    width: 100%;
 }
 
 #hero-box {
-    width: 100%; 
+    width: 100%;
 }
 
 #hero-img {
-    width: 100%; 
-}
-nav a, .book, .join, footer a {
-    text-decoration: none; 
+    width: 100%;
 }
 
-nav a:hover, .book:hover, .join:hover, footer a:hover {
-    text-decoration: underline; 
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
+main section img {
+    box-sizing: border-box;
+}
 
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.book, .join, footer a {
+    text-decoration: none;
+}
+
+.book:hover, .join:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
 
