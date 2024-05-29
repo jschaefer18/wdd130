@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.container img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+}
+
+.right-side {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-color: grey;
+}
+
+
+#cherries {
+    color: darkred;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 5em;
+
+}
+
+.main-header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 8em;
+}
