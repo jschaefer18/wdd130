@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 35px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+}
+
+
+#home_link,
+#site_link,
+#contact_link,
+#site_plan_2,
+#contact_us_2,
+#page_2 {
+    color: white;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #004080;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+ 
+
+
+
+.join {
+    background-color: #663300;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+.book, .join, footer a {
+    text-decoration: none;
+}
+
+.book:hover, .join:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #d9c2a3;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.firstimg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.opening {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.highlights {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.highlights {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.firstimg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    border: 10px solid #d9c2a3;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+
+.secondimg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    border: 10px solid #d9c2a3;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+
+.thirdimg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: flex;
+    border: 10px solid #d9c2a3;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.image-block {
+    display: flex;
+    border: 10px solid #d9c2a3;
+    border-radius: 5px;
+}
+
+/* Media Query */
+@media screen and (max-width: 900px) {
+    main {
+        display: block;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
